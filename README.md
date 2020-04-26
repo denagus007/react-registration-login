@@ -7,4 +7,4 @@ This **Front End** is for the Mitrais coding test purpose.
 
 #How to Run
 - npm install
-- npm start
+- npm start, now listening on : http://localhost:8080
