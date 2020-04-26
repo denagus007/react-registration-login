@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mitrais Coding Test</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
+        a { cursor: pointer; }
+        .help-block { 
+            font-size: 12px;
+            background: red;
+            color: #FFF !important;
+            margin-top: -33px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+            right: 15px;
+        }
+
+        .help-block::after {
+            content: " ";
+            position: absolute;
+            top: 100%; /* At the bottom of the tooltip */
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: red transparent transparent transparent;
+        }
+
+        .footer{
+            background: #6300c0;
+            height: 100px;
+            color: #FFF;
+            padding-top: 15px;;
+        }
+
+        .jumbotron{
+            margin-bottom: 0 !important;
+        }
+
+        .regis-button{
+            width: 100%;
+            background: #6300c0;
+        }
+
+        .overlay {
+            position: absolute; /* Sit on top of the page content */
+            display: block; /* Hidden by default */
+            width: 100%; /* Full width (cover the whole page) */
+            height: 100%; /* Full height (cover the whole page) */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+            z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+            cursor: pointer; /* Add a pointer on hover */
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+
+    <div class="text-center footer">
+        <p>
+            <h1>Footer</h1>
+        </p>
+    </div>
+</body>
+</html>
